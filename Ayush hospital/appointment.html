@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+     <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="contact-info">
+            <a href="mailto:info@hospital.com"><i class="fa-solid fa-envelope"></i> info@hospital.com</a>
+            <span>|</span>
+            <a href="tel:+123456789"><i class="fa-solid fa-phone-volume fa-beat"></i> +1 234 567 89</a>
+        </div>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-beat"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter fa-beat"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fa-beat"></i></a>
+        </div>
+    </div>
+    <!-- Placeholder for Header -->
+    <div id="header"></div>
+
+    <!-- Hero Banner -->
+    <div class="hero-banner">
+        <h1>Services</h1>
+    </div>
+   
+
+   
+
+    <!-- Cards Section -->
+    <div class="appoint-cards-section">
+        <div class="appoint-card card1">
+            <h3>Emergency Case</h3>
+            <p>If you have an emergency, please call us <br> immediately or visit our emergency department.</p>
+            <p><strong>Phone:</strong> +1 (234) 567-890</p>
+        </div>
+        <div class="appoint-card card2">
+            <h3>Online Booking</h3>
+            <p>You can book an appointment online through our secure system. <br> Click the button below to start.</p>
+            <button onclick="window.location.href='online-booking.html'">Book Now</button>
+        </div>
+        <div class="appoint-card card1">
+            <h3>Opening Hours</h3>
+            <p>Our hospital is open 24/7. However, <br> please check specific departments' opening hours before visiting.</p>
+            <p><strong>Mon-Fri:</strong> 9:00 AM - 8:00 PM</p>
+            <p><strong>Sat-Sun:</strong> 10:00 AM - 5:00 PM</p>
+        </div>
+    </div>
+     
+    <!-- FAQ Section using Bootstrap Accordion -->
+     <div class="faqclass">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 heading">
+                <h2>Frequently Asked Questions</h2>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Question 1: What are your payment methods?  <span><i class="fa-solid fa-caret-down fa-beat"></i></span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Answer 1: We accept all major credit cards, debit cards, and online payment methods.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Question 2: How can I cancel my appointment? <span><i class="fa-solid fa-caret-down fa-beat"></i></span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Answer 2: You can cancel your appointment by calling our reception or using our online cancellation form.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more FAQ items as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/cfa9111c99.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Include Slick JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
